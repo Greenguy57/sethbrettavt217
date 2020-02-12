@@ -5,6 +5,10 @@ body {
   font-size: 20px;
   margin: 50px;
 }
+.container {
+  width: 60%;
+  margin: 100px auto;
+}
 a {
   color: #171717;
   text-decoration: none;
@@ -18,4 +22,11 @@ ul{
 }
 li{
   margin: 15px 0 0 0;
+}
+p {
+  color: Black;
+}
+.intro {
+  color: #4B4B4B;
+  font-size: 25px
 }

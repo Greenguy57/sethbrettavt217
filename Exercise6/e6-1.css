@@ -1,0 +1,29 @@
+body {
+  background-color: #009933;
+  margin: 0;
+  overflow-x: hidden;
+}
+.container {
+ width: 180vw;
+ margin: -50px -10%;
+}
+.block-1, .block-2, .block-3 {
+  width: 40px;
+  height: 100px;
+  float: left;
+  /* opacity: .7; */
+  border-radius: 50%;
+  border: 10px solid black;
+}
+.block-1 {
+  border-color: gray;
+  margin: 80px;
+}
+.block-2 {
+  border-color: green;
+  margin: -500px;
+}
+.block-3 {
+  border-color: black;
+  margin: -75px;
+}

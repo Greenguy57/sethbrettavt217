@@ -1,0 +1,41 @@
+body {
+  background-color: Blue;
+  margin: 0;
+  overflow-x: hidden;
+}
+.container {
+ width: 80vw;
+ margin: 10px 5%;
+}
+.block-1, .block-2, .block-3 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  opacity:;
+  border-radius: 0%;
+}
+.block-1 {
+  background-color: gray;
+  margin: 0px;
+  opacity: 0.8;
+  border: 100px solid black
+  opacity: 0.5;
+}
+.block-2 {
+margin: 0px;
+  width: 0px;
+  height: 0px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid black;
+  opacity: 0.8;
+}
+.block-3 {
+  width: 100px;
+  height: 100px;
+  float: right;
+  opacity:;
+  border-radius: 50%;
+  background-color: orange;
+  margin: 80px;
+}
