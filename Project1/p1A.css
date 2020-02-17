@@ -12,9 +12,7 @@ body {
   font-size: 20px;
   margin: 50px;
 }
-.container {
 
-}
 a {
   color: #171717;
   text-decoration: none;
@@ -22,6 +20,11 @@ a {
 }
 a:hover {
   color: #c94236;
+}
+p {
+  color: #171717;
+  text-decoration: none;
+  font-size: 25px
 }
 ul{
   list-style-type: none;
