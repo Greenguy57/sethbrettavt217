@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+}
+body {
+  background: linear-gradient(to bottom, #363bc9,black);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 50px;
+}
+.container {
+
+}
+a {
+  color: #171717;
+  text-decoration: none;
+  font-size: 25px
+}
+a:hover {
+  color: #c94236;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  margin: 15px 0 0 0;
+}
+#images {
+  margin: 100px 0px 0px 0px;
+  text-align: center;
+}
+#images img {
+  max-width: 100%;
+  margin: 25px 0;
+}
