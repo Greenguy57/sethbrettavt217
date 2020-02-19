@@ -12,8 +12,11 @@ body {
   font-size: 20px;
   margin: 50px;
 }
-
+h2 {
+  font-family: 'Sintony', sans-serif;
+}
 a {
+  font-family: 'Oswald', sans-serif;
   color: #171717;
   text-decoration: none;
   font-size: 25px
@@ -22,6 +25,7 @@ a:hover {
   color: #c94236;
 }
 p {
+  font-family: 'Oswald', sans-serif;
   color: #171717;
   text-decoration: none;
   font-size: 25px

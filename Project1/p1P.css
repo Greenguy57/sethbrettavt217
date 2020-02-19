@@ -12,8 +12,11 @@ body {
   font-size: 20px;
   margin: 50px;
 }
-
+h2 {
+  font-family: 'Playfair Display SC', serif;
+}
 a {
+  font-family: 'Oswald', sans-serif;
   color: #cccccc;
   text-decoration: none;
   font-size: 25px
@@ -22,6 +25,9 @@ a:hover {
   color: #363bc9;
 }
 p {
+  margin-left:100px;
+  margin-right:100px;
+  font-family: 'Oswald', sans-serif;
   color: #cccccc;
   text-decoration: none;
   font-size: 25px
