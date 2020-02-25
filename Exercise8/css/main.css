@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.board {
+  width: 800px;
+  margin: 100px auto;
+}
+.green, .black {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.green{
+  background-color: #419661;
+}
+.black{
+  background-color: #2b2b2b;
+}
+/*--------------------------------------------*/
+
+.container{
+  width: 900px;
+  margin: 100px auto;
+}
+.header{
+  float: left;
+  width: 900px;
+  height: 100px;
+  background-color: #419661;
+}
+.subhead{
+  float: left;
+  width: 900px;
+  height: 50px;
+  margin: 25px 0;
+  background-color: #2b2b2b;
+}
+.column{
+  float: left;
+  width: 283.33px;
+  height: 600px;
+  background-color: #419661;
+}
+.footer{
+  float: left;
+  width: 900px;
+  height: 75px;
+  margin: 25px 0 0 0;
+  background-color: #2b2b2b;
+}
+.margin25{
+  margin: 0 25px;
+}
