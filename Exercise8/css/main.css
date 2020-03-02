@@ -58,3 +58,93 @@ body{
 .margin25{
   margin: 0 25px;
 }
+/*--------------------------------------------*/
+
+.holder{
+  width: 1000px;
+  margin: 100px auto;
+}
+.head{
+  float: left;
+  width: 1000px;
+  height: 200px;
+  background-color: #419661;
+}
+.post{
+  float: left;
+  width: 775px;
+  height: 500px;
+  margin: 100px 25px 0px 0px;
+  background-color: #2b2b2b;
+}
+.blogdeet{
+  float: left;
+  width: 200px;
+  height: 250px;
+  margin: 100px 0px;
+  background-color: #419661;
+}
+.foot{
+  float: left;
+  width: 775px;
+  height: 75px;
+  margin: 25px 0px;
+  background-color: #419661;
+}
+/*--------------------------------------------*/
+
+.court{
+  width: 315px;
+  margin: 100px auto;
+}
+.container1{
+  width: 50px
+}
+.container2{
+  width: 210px
+}
+.container3{
+  width: 50px
+}
+.leftsidebox{
+  float: left;
+  width: 50px;
+  height: 180px;
+  margin: 0px 5px 0px 0px;
+  background-color: #419661
+}
+.rightsidebox{
+  float: left;
+  width: 50px;
+  height: 180px;
+  margin: 0px 0px 0px 5px;
+  background-color: #419661
+}
+.lefthalfbox{
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 0px 5px 0px 0px;
+  background-color: #419661
+}
+.righthalfbox{
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 0px 0px 0px 0px;
+  background-color: #419661
+}
+.topfullbox{
+  float: left;
+  width: 205px;
+  height: 75px;
+  margin: 0px 0px 5px 0px;
+  background-color: #419661
+}
+.bottomfullbox{
+  float: left;
+  width: 205px;
+  height: 75px;
+  margin: 5px 0px 0px 0px;
+  background-color: #419661
+}
