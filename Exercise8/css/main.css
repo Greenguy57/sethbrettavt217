@@ -97,54 +97,127 @@ body{
   width: 315px;
   margin: 100px auto;
 }
-.container1{
-  width: 50px
-}
-.container2{
-  width: 210px
-}
-.container3{
-  width: 50px
-}
 .leftsidebox{
   float: left;
   width: 50px;
   height: 180px;
   margin: 0px 5px 0px 0px;
-  background-color: #419661
+  background-color: #419661;
 }
 .rightsidebox{
   float: left;
   width: 50px;
   height: 180px;
   margin: 0px 0px 0px 5px;
-  background-color: #419661
+  background-color: #419661;
 }
 .lefthalfbox{
   float: left;
   width: 100px;
   height: 100px;
   margin: 0px 5px 0px 0px;
-  background-color: #419661
+  background-color: #419661;
 }
 .righthalfbox{
   float: left;
   width: 100px;
   height: 100px;
   margin: 0px 0px 0px 0px;
-  background-color: #419661
+  background-color: #419661;
 }
 .topfullbox{
   float: left;
   width: 205px;
   height: 75px;
   margin: 0px 0px 5px 0px;
-  background-color: #419661
+  background-color: #419661;
 }
 .bottomfullbox{
   float: left;
   width: 205px;
   height: 75px;
   margin: 5px 0px 0px 0px;
-  background-color: #419661
+  background-color: #419661;
+}
+/*--------------------------------------------*/
+*{
+  box-sizing: border-box;
+}
+.court2 {
+  width: 900px;
+  margin: 100px auto;
+}
+.side {
+  width: 150px;
+  height: 600px;
+  background-color: #419661;
+  float: left;
+  border: 5px solid white;
+}
+.back {
+  width: 600px;
+  height: 200px;
+  background-color: #419661;
+  float: left;
+  border: 5px solid white;
+}
+.service {
+  width: 300px;
+  height: 400px;
+  background-color: #419661;
+  float: left;
+  border: 5px solid white;
+}
+.single {
+  width: 600px;
+  float: left;
+}
+/*--------------------------------------------*/
+
+*{
+  box-sizing: border-box;
+}
+.challenge {
+  width: 800px;
+  margin: 100px auto;
+}
+.contain1 {
+  width: 100px;
+  float: left;
+}
+.contain2 {
+  width: 500px;
+  float: left;
+}
+.contain3 {
+  width: 200px;
+  float: left;
+}
+.small {
+  width: 100px;
+  height: 200px;
+  background-color: #419661;
+  float: left;
+  border: 5px solid white;
+}
+.small-long {
+  width: 100px;
+  height: 400px;
+  background-color: #419661;
+  float: left;
+  border: 5px solid white;
+}
+.large {
+  width: 200px;
+  height: 400px;
+  background-color: #419661;
+  float: left;
+  border: 5px solid white;
+}
+.large-long {
+  width: 200px;
+  height: 600px;
+  background-color: #419661;
+  float: left;
+  border: 5px solid white;
 }
