@@ -1,0 +1,452 @@
+body{
+  margin: 0;
+  background-color: #86DEF8;
+}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+/*Section Divs*/
+/*--------------------------------------------*/
+
+*{
+  box-sizing: border-box;
+}
+.p3 {
+  width: 1000px;
+  margin: 100px auto;
+}
+.intro {
+  width: 1000px;
+  float: left;
+}
+.titleinfo {
+  width: 1000px;
+  float: left;
+}
+.moreinfo {
+  width: 1000px;
+  float: left;
+}
+.mainskills {
+  width: 1000px;
+  float: left;
+}
+.savethrows {
+  width: 1000px;
+  float: left;
+}
+.savethrowtext {
+  width: 800px;
+  margin: 100px auto;
+}
+.skills {
+  width: 1000px;
+  float: left;
+}
+.lastskills {
+  width: 600px;
+  margin: 100px auto;
+}
+.equipment {
+  width: 1000px;
+  float: left;
+}
+.abilities {
+  width: 1000px;
+  float: left;
+}
+.passiveabilities {
+  width: 1000px;
+  float: left;
+}
+.proficencies {
+  width: 1000px;
+  float: left;
+}
+.stowedequip {
+  width: 1000px;
+  float: left;
+}
+.circles {
+  width: 250px;
+  margin: 100px auto;
+}
+
+/*Intro*/
+/*--------------------------------------------*/
+
+.Qlogo {
+  width: 420px;
+  height: 372px;
+  margin: 100px auto;
+  background-color: White;
+  float: center;
+}
+.introtext {
+  width: 1000px;
+  height: 300px;
+  margin-bottom: 300px;
+  background-color: Black;
+  float: center;
+}
+.titletext {
+  width: 512px;
+  height: 122px;
+  margin: 100px auto;
+  background-color: Black;
+  float: center;
+}
+
+/*Breakers*/
+/*--------------------------------------------*/
+
+.blackbreaker {
+  width: 1000px;
+  height: 22px;
+  margin-bottom: 50px;
+  background-color: black;
+  float: left;
+}
+.whitebreaker {
+  width: 1000px;
+  height: 22px;
+  background-color: white;
+  margin-bottom: 80px;
+  float: left;
+  border: 1px solid black;
+}
+.whiteblack {
+  height: 50px;
+  width: 50px;
+  margin: 100px 5px 0px 5px;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid black;
+  display: inline-block;
+  float: left;
+}
+.blackwhite {
+  height: 50px;
+  width: 50px;
+  margin: 100px 5px 0px 5px;
+  background-color: black;
+  border-radius: 50%;
+  border: 5px solid white;
+  display: inline-block;
+  float: left;
+}
+
+/*Title Info*/
+/*--------------------------------------------*/
+
+.cname {
+  width: 332px;
+  height: 100px;
+  margin: 0 142px 80px 0;
+  float: left;
+  background-color: black;
+}
+.species {
+  width: 134px;
+  height: 100px;
+  margin: 0 142px 80px 0;
+  float: left;
+  background-color: black;
+}
+.background {
+  width: 248px;
+  height: 100px;
+  margin: 0 0 80px 0;
+  float: left;
+  background-color: black;
+}
+.class {
+  width: 114px;
+  height: 100px;
+  margin: 0 256px 50px 256px;
+  float: left;
+  background-color: black;
+}
+.lev {
+  width: 114px;
+  height: 100px;
+  margin: 0 0 0 0;
+  float: left;
+  background-color: black;
+}
+
+/*More Info*/
+/*--------------------------------------------*/
+
+.init {
+  width: 202px;
+  height: 202px;
+  margin: 0 197px 0 0;
+  float: left;
+  background-color: white;
+}
+.ac {
+  width: 202px;
+  height: 202px;
+  margin: 0 197px 0 0;
+  float: left;
+  background-color: white;
+}
+.speed {
+  width: 202px;
+  height: 202px;
+  margin: 0 0 0 0;
+  float: left;
+  background-color: white;
+}
+.infotext1 {
+    width: 114px;
+    height: 50px;
+    margin: 10px 290px 10px 40px;
+    float: left;
+    background-color: black;
+  }
+.infotext2 {
+      width: 114px;
+      height: 50px;
+      margin: 10px 290px 10px 0;
+      float: left;
+      background-color: black;
+    }
+.infotext3 {
+      width: 114px;
+      height: 50px;
+      margin: 10px 0 10px 0;
+      float: left;
+      background-color: black;
+    }
+.health {
+  width: 460px;
+  height: 250px;
+  border-radius: 50px;
+  margin: 100px 80px 100px 0;
+  float: left;
+  background-color: #3B9F71;
+}
+.ability {
+  width: 460px;
+  height: 250px;
+  border-radius: 50px;
+  margin: 100px 0 100px 0;
+  float: left;
+  background-color: #CE6F6F;
+}
+
+/*Main Skills*/
+/*--------------------------------------------*/
+
+.headerimage {
+  width: 276px;
+  height: 276px;
+  margin: 160px 0 200px 0;
+  float: left;
+  background-color: white;
+}
+.headtitle {
+  width: 440px;
+  height: 80px;
+  margin: 260px 140px 0px 60px;
+  float: left;
+  background-color: black;
+}
+.skillimage {
+  width: 200px;
+  height: 200px;
+  margin: 0px 66px 50px 0;
+  float: left;
+  background-color: white;
+}
+.skilltext {
+  width: 200px;
+  height: 200px;
+  margin: 0px 66px 50px 0;
+  float: left;
+  background-color: black;
+}
+.skilltext2 {
+  width: 200px;
+  height: 200px;
+  margin: 0px 0 50px 0;
+  float: left;
+  background-color: black;
+}
+
+/*Saving Throws*/
+/*--------------------------------------------*/
+
+.headerimage2 {
+  width: 276px;
+  height: 276px;
+  margin: 160px 120px 100px 60px;
+  float: left;
+  background-color: white;
+}
+.headtitle2 {
+  width: 440px;
+  height: 80px;
+  margin: 260px 0px 200px 0px;
+  float: left;
+  background-color: black;
+}
+.throwtext {
+  width: 60px;
+  height: 250px;
+  margin: 0px 10px 0px 0;
+  float: left;
+  background-color: black;
+}
+.thrownum {
+  width: 30px;
+  height: 60px;
+  margin: 90px 30px 0px 0;
+  float: left;
+  background-color: black;
+}
+
+/*Skills*/
+/*--------------------------------------------*/
+
+.skillimage2 {
+  width: 200px;
+  height: 200px;
+  margin: 0px 0px 50px 0;
+  float: left;
+  background-color: white;
+}
+.skilltitle {
+  width: 100px;
+  height: 50px;
+  margin: 0px 170px 40px 0px;
+  float: left;
+  background-color: black;
+}
+.skilltitle2 {
+  width: 100px;
+  height: 50px;
+  margin: 0px 160px 40px 50px;
+  float: left;
+  background-color: black;
+}
+.skilltitle3 {
+  width: 100px;
+  height: 50px;
+  margin: 0px 0px 40px 0px;
+  float: left;
+  background-color: black;
+}
+.skillnum {
+  width: 50px;
+  height: 50px;
+  margin: 0px 220px 60px 0px;
+  float: left;
+  background-color: black;
+}
+.skillnum2 {
+  width: 50px;
+  height: 50px;
+  margin: 0px 200px 60px 80px;
+  float: left;
+  background-color: black;
+}
+.skillnum3 {
+  width: 50px;
+  height: 50px;
+  margin: 0px 0px 60px 0px;
+  float: left;
+  background-color: black;
+}
+/*Equipment*/
+/*--------------------------------------------*/
+
+.equiptitle {
+  width: 120px;
+  height: 60px;
+  margin: 0px 600px 40px 280px;
+  float: left;
+  background-color: black;
+}
+.equipimage {
+  width: 130px;
+  height: 130px;
+  margin: 0px 40px 80px 80px;
+  float: left;
+  background-color: white;
+}
+.equiptext {
+  width: 600px;
+  height: 50px;
+  margin: 40px 0px 80px 0px;
+  float: left;
+  background-color: black;
+}
+
+/*Abilities*/
+/*--------------------------------------------*/
+
+.abilitytitle {
+  width: 250px;
+  height: 50px;
+  margin: 0px 0px 40px 0px;
+  float: left;
+  background-color: black;
+}
+.abilitytext {
+  width: 1000px;
+  height: 150px;
+  margin: 0px 0px 80px 0px;
+  float: left;
+  background-color: black;
+}
+
+/*Passive Abilities*/
+/*--------------------------------------------*/
+
+.pabilitytitle {
+  width: 250px;
+  height: 50px;
+  margin: 0px 375px 40px 375px;
+  float: left;
+  background-color: black;
+}
+.pabilitytext {
+  width: 1000px;
+  height: 100px;
+  margin: 0px 0px 80px 0px;
+  float: left;
+  background-color: black;
+}
+
+/*Stowed Equipment*/
+/*--------------------------------------------*/
+
+.headerimage3 {
+  width: 276px;
+  height: 276px;
+  margin: 160px 362px 100px 362px;
+  float: left;
+  background-color: white;
+}
+.headtitle3 {
+  width: 800px;
+  height: 80px;
+  margin: 0px 0px 150px 100px;
+  float: left;
+  background-color: black;
+}
+.equiptext2 {
+  width: 500px;
+  height: 60px;
+  margin: 0px 250px 80px 250px;
+  float: left;
+  background-color: black;
+}
