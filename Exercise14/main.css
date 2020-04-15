@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 300vh;
+  background-color: #009933;
+  color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 50px;
+}
+
+/*----------------------------------------*/
+
+.fixed {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  top: ;
+  left: ;
+}
+
+.absolute {
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+
+.relative {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 300px;
+  left: 700px;
+}
+
+/*----------------------------------------*/
+
+.head {
+  background-color: pink;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: relative;
+  margin: 100px auto;
+}
+
+.leye, .reye {
+  background-color: black;
+  width: 70px;
+  height: 140px;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+}
+.leye {
+  left: 150px;
+}
+.reye {
+  left: 280px;
+}
+.pupil {
+  background-color: white;
+  width: 50px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.cheeks {
+  background-color: ;
+  width: 500px;
+  height: 50px;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+.lcheek, .rcheek {
+  background-color: #ff0066;
+  width: 60px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+}
+.lcheek {
+  left: 0px;
+}
+.rcheek{
+  left: 250px;
+}
+.mouth {
+  background-color: #800000;
+  width: 40px;
+  height: 45px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 150px;
+  left: 230px;
+}
+.tongue {
+  background-color: #cc0000;
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 2px;
+  left: 10px;
+}
